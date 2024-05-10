@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="XINLONG YING">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Search Page</title>
+	<link rel="stylesheet" type="text/css" href="styles/recipe_search.css" />
+	<script src="js/recipe_search.js"></script>
+	<script src="js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <body>
+        <div class="search-container">
+            <h1>Recipe Search</h1>
+            <input id="search-input" type="text" class="search-box" placeholder="Search for recipes...">
+            <button class="search-button" onclick="search()">Search</button>
+        </div>
+		<hr size="30" color="#f6f6f6">
+        <div class="search-results-container">
+            <h2>Search Results:</h2>
+            <ul id="recipe-ul" class="search-results">
+                <li id="rost-duck" hidden>
+                    <img src="images/BeijingRoastDuck.jpeg" alt="Beijing Roast Duck">
+                    <a href="beijing_roast_duck.html" class="menu-item"><span class="recipe-name">Beijing Roast Duck</span></a>
+                </li>
+                <li id="stewed-pork" hidden>
+                    <img src="images/StewedPorkWithBrownSauce.jpeg" alt="Stewed Pork with Brown Sauce">
+                    <span class="recipe-name">Stewed Pork with Brown Sauce</span>
+                </li>
+                <li id="mouth-watering-chicken" hidden>
+                    <img src="images/Mouth-WateringChicken.jpeg" alt="Mouth-Watering Chicken">
+                    <span class="recipe-name">Mouth-Watering Chicken</span>
+                </li>
+            </ul>
+			<hr color="#f6f6f6">
+			<footer>
+				<p>Author: XINLONG YING</p>
+				<p>Last modified: 2024-02-06</p>
+				<p><a href="http://www.athabascau.ca/">Link to Athabasca University's main site</a>.</p>
+			</footer>	
+        </div>
+		
+	
+
+    </body>
+
+</html>

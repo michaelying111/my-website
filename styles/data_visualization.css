@@ -1,0 +1,50 @@
+.bg-image {
+	background-image: url('../images/DataVisBackGround.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 30%;
+	position: relative;
+}
+.table-container{
+	width: 80%;
+	margin: 20px auto;
+	padding: 10px;
+	box-shadow: darkgrey 10px 10px 30px 5px ;
+}
+.table-data{
+	margin-left: auto;
+	margin-right: auto;
+}
+.chart-container {
+	text-align: center;
+	width: 600px;
+	margin: 20px auto;
+}
+.chart-header {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.bar-chart {
+	width: 100%;
+	height: 300px;
+/* 	background-image: url('../images/datademo.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center; */
+}
+h1{
+	text-align: center;
+	color:white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+footer{
+	text-align: center;
+}

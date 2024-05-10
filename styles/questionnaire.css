@@ -1,0 +1,44 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+.bg-image {
+	background-image: url('../images/questionnaireBackGround.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 30%;
+	position: relative;
+}
+.questionnaire-container {
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+}
+.question {
+	margin-bottom: 15px;
+	opacity: 0;
+}
+.question label {
+	margin-right: 10px;
+}
+.submit-button{
+	display:block;
+	margin:0 auto;
+	visibility: hidden;
+}
+h1{
+	text-align: center;
+	color:white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 0px;
+}
+
+hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+footer{
+	text-align: center;
+}

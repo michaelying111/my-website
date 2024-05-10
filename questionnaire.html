@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="XINLONG YING">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="styles/questionnaire.css" />
+    <title>Questionnaire Page</title>
+	<script src="js/questionnaire.js"></script>
+	<script src="js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <body>
+		<div class="bg-image">
+			<h1>Questionnaire</h1>		
+		</div>
+		<hr size="30" color="#f6f6f6">
+        <div class="questionnaire-container">
+            <div id="question_1" class="question" style="opacity: 1;">
+                <p>1.What is your preferred taste profile?</p>
+                <label>
+                    <input type="radio" name="question1" value="A" onclick="answer_click(1)"> A. Spicy</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question1" value="B" onclick="answer_click(1)"> B. Sweet</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question1" value="C" onclick="answer_click(1)"> C. Sour</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question1" value="D" onclick="answer_click(1)"> D. Savory (Umami)</label>
+                <br/>
+            </div>
+            <div id="question_2" class="question">
+                <p>2.Do you have any food allergies?</p>
+                <label>
+                    <input type="radio" name="question2" value="A" onclick="answer_click(2)"> A. Yes, I'm allergic to seafood.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question2" value="B" onclick="answer_click(2)"> B. Yes, I'm allergic to nuts.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question2" value="C" onclick="answer_click(2)"> C. Yes, I'm allergic to dairy.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question2" value="D" onclick="answer_click(2)"> D. No, I don't have any food allergies.</label>
+                <br/>
+            </div>
+            <div id="question_3" class="question">
+                <p>3.Do you follow any dietary restrictions?</p>
+                <label>
+                    <input type="radio" name="question3" value="A" onclick="answer_click(3)"> A. Yes, I'm vegetarian/vegan.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question3" value="B" onclick="answer_click(3)"> B. Yes, I follow a halal diet.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question3" value="C" onclick="answer_click(3)"> C. Yes, I follow a kosher diet.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question3" value="D" onclick="answer_click(3)"> D. No, I don't follow any dietary restrictions.</label>
+                <br/>
+            </div>
+            <div id="question_4" class="question">
+                <p>4.How do you feel about trying exotic foods?</p>
+                <label>
+                    <input type="radio" name="question4" value="A" onclick="answer_click(4)"> A. I love trying new and exotic foods.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question4" value="B" onclick="answer_click(4)"> B. I'm open to trying new foods, but nothing too strange.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question4" value="C" onclick="answer_click(4)"> C. I prefer to stick to foods I'm familiar with.</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question4" value="D" onclick="answer_click(4)"> D. I'm not adventurous when it comes to food.</label>
+                <br/>
+            </div>
+            <div id="question_5" class="question">
+                <p>5.What type of Chinese cuisine are you most interested in trying?</p>
+                <label>
+                    <input type="radio" name="question5" value="A" onclick="answer_click(5)"> A. Sichuan cuisine (known for its bold, spicy flavors)</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question5" value="B" onclick="answer_click(5)"> B. Cantonese cuisine (known for its sweet and sour dishes)</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question5" value="C" onclick="answer_click(5)"> C. Beijing cuisine (known for its savory and slightly sweet dishes)</label>
+                <br/>
+                <label>
+                    <input type="radio" name="question5" value="D" onclick="answer_click(5)"> D. Shanghai cuisine (known for its sweet and light flavors)</label>
+                <br/>
+            </div>
+            <button id="submit-button" class="submit-button" onclick="showRecipe()">Show My Recipe</button>	
+			<p id="result"></p>
+			<footer>
+				<p>Author: XINLONG YING</p>
+				<p>Last modified: 2024-02-06</p>
+				<p><a href="http://www.athabascau.ca/">Link to Athabasca University's main site</a>.</p>
+			</footer>	
+        </div>
+		
+
+
+		
+    </body>
+
+</html>

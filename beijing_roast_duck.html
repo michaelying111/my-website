@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="XINLONG YING">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This HTML file was modified from sample1.html">
+	<link rel="stylesheet" type="text/css" href="styles/beijing_roast_duck.css" />
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&type=webgl&ak=OWOl9sjsEnTO87A5BPdPoA2RQQhBgmqz"></script>
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/beijing_roast_duck.js"></script>
+	<title>Recipe Library</title>
+</head>
+
+<body>
+    <div class="bg-image">
+        <h1>RECIPE LIBRARY</h1>
+    </div>
+	<hr size="30" color="#f6f6f6">
+    <main>
+        <section>
+			<div class="recipe-info">
+			<img src="images/BeijingRoastDuck.jpeg" alt="Delicious food" class="food-image">
+				<div id="recipe-info-text">
+					<h2>Beijing Roast Duck</h2>
+					<p>Tender Meat、Sweet and Savory Flavor、Traditional Chinese Cooking Techniques</p>
+					<hr>
+					<p>Beijing Roast Duck is a world-renowned dish that hails from the capital of China. This delicacy dates back to the Northern and Southern dynasties of China, with historical records of roasted duck found in ancient texts.</p>
+					<p>The dish is celebrated for its crispy skin and succulent meat, achieved through a meticulous roasting process. Traditionally, the duck is marinated with a blend of spices, then hung to dry before being roasted in an open oven or hung oven,
+						a technique that has been perfected over centuries.</p>
+					<p>The result is a flavorful, aromatic dish that is often served with thin pancakes, spring onions, cucumbers, and hoisin sauce, allowing diners to wrap bite-sized pieces of the duck with these accompaniments for a harmonious blend of textures
+						and tastes 
+						<img src="images/volume.svg" alt="recipe info" onclick="playRecipeInfo()"/>
+					</p>
+				</div>
+            </div>
+        </section>
+        <section>
+            
+			<div class="tab-header">
+				<ul>
+					<li id="how-to-eat-bar" class="selected" onclick="switchTabToHowToCook()">How To Cook</li>
+					<li id="where-can-i-eat-bar" onclick="switchTabToWhereCanIEat()">Where Can I Eat</li>
+				</ul>
+			</div>
+			<div class="map">
+				<div hidden id='map-content' class="map-image"></div>
+			</div>
+			<div id="tab-content">
+
+				<ol class="recipe-steps">
+					<li>
+						<h3>Selection and Preparation of the Duck</h3>
+						<p>A specific breed of duck, often the Pekin duck, is chosen for its suitable size and meat quality. The duck is then plucked, cleaned, and rinsed thoroughly.</p>
+						<hr>
+					</li>
+					<li>
+						<h3>Inflating the Duck</h3>
+						<p>Air is blown into the duck between its skin and flesh to separate the skin from the fat, which helps the skin become crispy during roasting.</p>
+						<hr>
+					</li>
+					<li>
+						<h3>Marinating</h3>
+						<p>The duck is marinated with a mixture of spices and seasonings inside its cavity. This may include ingredients like soy sauce, five-spice powder, and other seasonings to enhance flavor.</p>
+						<hr>
+					</li>
+					<li>
+						<h3>Sealing and Drying</h3>
+						<p>The duck's cavity is sealed, and the duck is hung to dry in a well-ventilated area. This drying process is crucial for achieving crispy skin.</p>
+						<hr>
+					</li>
+					<li>
+						<h3>Glazing</h3>
+						<p>The duck is brushed with a glaze made from maltose syrup, which gives the skin a rich, golden color upon roasting. After glazing, the duck is left to dry again to ensure the glaze sets properly.</p>
+						<hr>
+					</li>
+					<li>
+						<h3>Roasting</h3>
+						<p>The duck is roasted in an open oven or a hung oven. Traditional methods involve using wood-fired ovens, where the type of wood, such as fruit tree wood, can impart a unique flavor to the duck. The roasting process is carefully monitored
+							to ensure the skin crisps up while the meat remains tender.</p>
+						<hr>
+					</li>
+					<li>
+						<h3>Serving</h3>
+						<p>Once roasted to perfection, the duck is carved, and the crispy skin and succulent meat are served separately. It is typically accompanied by thin pancakes, finely sliced spring onions, cucumber, and hoisin sauce. Diners wrap pieces
+							of duck, spring onions, and cucumber in a pancake, adding hoisin sauce for flavor.</p>
+						<hr>
+					</li>
+				</ol>
+			</div>
+        </section>
+		<footer>
+			<p>Author: XINLONG YING</p>
+			<p>Last modified: 2024-02-06</p>
+			<p><a href="http://www.athabascau.ca/">Link to Athabasca University's main site</a>.</p>
+		</footer>
+    </main>
+
+</body>
+
+</html>

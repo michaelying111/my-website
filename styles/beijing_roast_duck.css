@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, sans-serif;
+}
+.bg-image {
+	background-image: url('../images/recipe_library_title.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 30%;
+	position: relative;
+}
+.food-image{
+	float: left;
+	margin-right: 10px;
+}
+.recipe-image {
+	width: 100%;
+	height: auto;
+}
+.recipe-info {
+	margin: 20px;
+}
+.recipe-steps {
+	text-align: center
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+}
+.recipe-steps th, .recipe-steps td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+.recipe-steps th {
+	text-align: left;
+}
+
+.tab-header{
+	clear: both;
+	position: relative;
+}
+
+.tab-header ul li{
+	display: inline-block;
+	line-height: 33px;
+	padding: 0 10px;
+	
+}
+.tab-header ul li.selected{
+	border-bottom: 1px solid #0000ff;
+}
+.map{
+	margin-top: 20px;
+	text-align: center;
+}
+.map-image {
+  left: 30%;
+  width: 800px; 
+  height: 650px; 
+}
+.weather-data {
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 20px; 
+}
+
+.weather-data .day {
+  width: 23%; 
+  text-align: center; 
+  padding: 10px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  border-radius: 4px; 
+  background-color: #f9f9f9; 
+}
+h1{
+	text-align: center;
+	color:white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+footer{
+	text-align: center;
+}
+
+
+
+

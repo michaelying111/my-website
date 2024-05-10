@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.search-container {
+	background-image: url('../images/SearchBackGround.jpg');
+	background-size: cover;
+	padding: 100px;
+	height: 30%;
+	text-align: center;
+}
+.search-box {
+	width: 50%;
+	padding: 10px;
+	font-size: 16px;
+}
+.search-button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.search-results {
+	margin: 20px;
+	padding-left: 0;
+}
+.search-results li {
+	list-style-type: none;
+	margin-bottom: 10px;
+	left: 20%;
+}
+.search-results img {
+	width: 100px;
+	height: auto;
+	margin-right: 10px;
+}
+h1{
+	text-align: center;
+	color:white;
+	margin-top: 0px;
+}
+hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+footer{
+	text-align: center;
+}
